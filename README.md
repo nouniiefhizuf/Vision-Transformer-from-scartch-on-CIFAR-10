@@ -30,5 +30,6 @@ The implementation includes all core ViT components: patch embedding, positional
 | Total Parameters | ~2.7M |
 
 **Architecture Flow**:
+
 <img width="817" height="398" alt="image" src="https://github.com/user-attachments/assets/639aea53-e6dd-4b38-9191-98b61d2ac4c5" />
 
