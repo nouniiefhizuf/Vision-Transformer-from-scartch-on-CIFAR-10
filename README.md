@@ -30,3 +30,14 @@ The implementation includes all core ViT components: patch embedding, positional
 | Total Parameters | ~2.7M |
 
 **Architecture Flow**:
+Input Image (32×32×3)
+↓
+Patch Embedding (64 patches, 256-dim embeddings)
+↓
+Add Positional Encoding + CLS Token
+↓
+Transformer Encoder (6 blocks with multi-head attention)
+↓
+Classification Head (extract CLS token → linear layer)
+↓
+Output (10 classes)
